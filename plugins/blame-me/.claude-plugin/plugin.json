@@ -1,0 +1,19 @@
+{
+  "name": "blame-me",
+  "displayName": "Blame-me",
+  "version": "0.1.0",
+  "description": "A pretend panel of the people who will judge your work finds its weak spots before they do. For ideas, school projects, contest entries, pitches, business plans, proposals, case studies, and resumes",
+  "author": {
+    "name": "Suruch Chakrapeesirisuk",
+    "url": "https://github.com/SuruchBoss"
+  },
+  "repository": "https://github.com/SuruchBoss/Blame-me",
+  "keywords": [
+    "review",
+    "critique",
+    "pitch",
+    "business",
+    "case-study"
+  ],
+  "license": "Apache-2.0"
+}

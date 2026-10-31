@@ -1,0 +1,14 @@
+{
+  "name": "blame-me",
+  "description": "A pretend panel finds the weak spots in your idea, project, pitch, or proposal before the real one does",
+  "owner": {
+    "name": "Suruch Chakrapeesirisuk"
+  },
+  "plugins": [
+    {
+      "name": "blame-me",
+      "source": "./plugins/blame-me",
+      "description": "For each weak spot: where it is, when it goes wrong, and a quick way to check it"
+    }
+  ]
+}
