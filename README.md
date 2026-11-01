@@ -28,7 +28,7 @@ If grill-me is the friend who keeps asking "why?" until your plan is clear, blam
 
 The two pieces of work and the five reports are in [examples/](examples/).
 
-**Not tried yet:** re-read after fixes, Claude.ai or other chat apps, installing from GitHub, and real work by anyone other than the author.
+**Not tried yet:** re-read after fixes, Claude.ai or other chat apps, and real work by anyone other than the author.
 
 ## What it is for
 
@@ -116,7 +116,7 @@ examples/               two invented pieces of work and the reports made from th
 
 ## Limits and untested parts
 
-All runs below: Claude Code 2.1.316, headless (`claude -p`), Linux, 2026-11-01, plugin loaded with `--plugin-dir`, default model, one run each. Costs are what the CLI reported for that run.
+All runs below: Claude Code 2.1.316, headless (`claude -p`), Linux, 2026-11-01, plugin loaded with `--plugin-dir` (except the install test), default model, one run each. Costs are what the CLI reported for that run.
 
 | Part | Status |
 |---|---|
@@ -134,7 +134,7 @@ All runs below: Claude Code 2.1.316, headless (`claude -p`), Linux, 2026-11-01, 
 | Turning away code and personal matters | Untested |
 | Resumes, applications, articles | Untested |
 | Claude.ai or other chat apps | Untested |
-| Installing from GitHub | Untested; only `--plugin-dir` was used |
+| Installing from GitHub | Tried once on 2026-11-01 in an empty home folder: `claude plugin marketplace add SuruchBoss/Blame-me` then `claude plugin install blame-me@blame-me` worked. |
 | Your own instruction files | If a CLAUDE.md or similar sets a voice or pronouns, the report may follow it. Seen once during development; the example runs used a clean home folder. |
 | Real work by other people | Untested |
 
