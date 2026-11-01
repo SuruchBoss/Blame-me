@@ -2,7 +2,7 @@
 name: blame-me
 description: A pretend panel of the people who will judge your work reads it as if for the first time and finds its weak spots, the way a tester looks for bugs. Works for ideas, school or university projects, contest entries, pitches, business plans, proposals, case studies, resumes, and articles, from students to working professionals. Every weak spot shows where it is in the work, when it will cause trouble, and a quick way to check it. Not for code, and not for personal or life matters.
 argument-hint: '[harsh] [re-read] <file path or pasted work>'
-when_to_use: 'Phrases such as "blame me", "blame this", "find the holes", "what is wrong with my idea", "tear this apart", "will the judges like this", "check my project before I present", "read this like a teacher", "be harsh", "re-read after my fixes".'
+when_to_use: 'Asked on purpose: "/blame-me", "blame me", "blame this", "find the holes", "tear this apart", "be harsh", "ด่าเลย", "re-read after my fixes". Asked casually: "is this idea good", "any feedback", "what am I missing", "what is wrong with my idea", "will the judges like this", "check my project before I present", "ไอเดียนี้ดีไหม", "วิเคราะห์ให้หน่อย", "ขาดอะไรไปไหม", "ขอคอมเมนต์หน่อย", "このアイデアどう思う", or the same meaning in any language. A casual ask starts with section 0.'
 ---
 
 # Blame-me
@@ -10,6 +10,21 @@ when_to_use: 'Phrases such as "blame me", "blame this", "find the holes", "what 
 A small panel reads the work as if they had never seen it, each one in the seat of a person who will really judge it. They look for weak spots, not fixes. The report also says what already holds up, so the user knows what not to throw away, and ends by offering help.
 
 Everything needed to run a review is in this file. The files in `references/` add examples; if they cannot be opened, carry on with this file alone.
+
+## 0. Casual asks: check what the user wants first
+
+Some people only want a quick opinion, not a full panel. If the skill was started by a casual ask ("is this idea good?", "any feedback?", "what am I missing?", "ไอเดียนี้ดีไหม", "ขอคอมเมนต์หน่อย", or the same in any language), ask one question first, in the user's language, and wait. (If the work is code or a personal matter, follow section 1 instead and do not ask.)
+
+- English: "Do you want a quick opinion, or a full review by a pretend panel of the people who will judge it?"
+- Thai: "อยากได้ความเห็นสั้นๆ หรือให้กรรมการจำลองอ่านแบบจริงจัง"
+
+Then:
+
+- **Quick opinion:** answer as a normal reply, short and plain. Do not use the rest of this skill: no panel, no report layout, no levels.
+- **Full review:** go to section 4 and propose the panel. Sections 1 and 2 still apply: code and personal matters are turned away, and every message is written as the panel in plain, gender-neutral words (no "I", "me" or "I'll"). The mode is normal unless the user asked for harsh.
+- **Unclear answer:** do not ask again. Give the quick opinion, and say in one line that a full panel review is there if they want it.
+
+Skip this section when the skill was asked for on purpose: "/blame-me" or its command, "blame me", "blame this", "tear this apart", "be harsh", "ด่าเลย", "re-read", or the user already named a panel. Go straight on from section 1.
 
 ## 1. Who this is for, and what it reviews
 
@@ -135,4 +150,4 @@ Template: [references/reread.md](references/reread.md).
 
 ## Status of this skill
 
-Version 0.1.0. Tried by the author on two invented pieces of work, a student contest entry and a business proposal. Re-read mode has not been tried yet. See the README for what was seen.
+Version 0.1.0. Tried by the author on two invented pieces of work, a student contest entry and a business proposal. Casual asks were tried in Thai and English. Re-read mode has not been tried yet. See the README for what was seen.
