@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+- README in English and Thai rewritten in more detail: a contents list, diagrams, step-by-step use, real replies for six kinds of request, how to read a report, tips, what it does not do, and an FAQ.
+- New example: a revised version of the student idea and the re-read report made from it.
+
 ## 0.1.0 (2026-11-01)
 
 First version.
