@@ -14,6 +14,7 @@ First version.
 - Before reporting, the skill looks for hard words (accounting, legal, uncommon English, English words in a Thai report) and replaces or explains them.
 - What the work does not say is written as an open question ("The work does not say..."), not as a fact. In the trial runs this worked in one report out of three.
 - Notes while waiting for reviewers use the work's language (added after the trial runs; untested).
+- A casual ask ("is this idea good?", "any feedback?", "ไอเดียนี้ดีไหม", or the same in any language) first gets one question: a quick opinion, or a full panel review. A quick opinion is a normal reply without the panel. Asking on purpose ("/blame-me", "blame this", "ด่าเลย") skips the question.
 - Two modes: normal and harsh. Harsh changes the wording, not the findings.
 - Re-read mode marks earlier weak spots as fixed, partly fixed, or not fixed, then reads the new version fresh.
 - Report layouts in English and Thai.

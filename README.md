@@ -57,7 +57,7 @@ Then open a new session (a skill installed during a session is not available in 
 /blame-me:blame-me path/to/your-work.md
 ```
 
-or just say it: "blame this proposal", "find the holes in my project". For harsh mode, add `harsh`, or say "be harsh":
+or just say it: "blame this proposal", "find the holes in my project". If you ask more casually, such as "is this idea good?" or "any feedback?", it first asks one question: do you want a quick opinion, or a full review by the panel? A quick opinion is a normal short reply without the panel. For harsh mode, add `harsh`, or say "be harsh":
 
 ```
 /blame-me:blame-me harsh path/to/your-work.md
@@ -130,6 +130,7 @@ All runs below: Claude Code 2.1.316, headless (`claude -p`), Linux, 2026-11-01, 
 | Notes while waiting, in the work's language | Some notes in Thai runs were in English. A rule was added afterwards; untested. |
 | Accuracy | Every sum the author checked was right. Some findings still go further than the work says, even after a rule against it was added (see [examples/README.md](examples/README.md)). Read the findings before acting on them. |
 | Re-read after fixes | Untested |
+| Casual asks ("is this idea good?") | Tried with one Thai and one English idea, in Claude Code 2.1.316. A casual ask loaded the skill on its own each time, and it asked the one question in the user's language and waited (6 runs). Answering "short" gave a plain reply with no panel (Thai, 1 run). Answering "full review" went to the panel (Thai 1, English 2). The first English run wrote "tell me" and "I'll run it"; after a rule was added, the re-run did not. The Thai full-review run asked six questions instead of the two the skill allows. Asking on purpose (`/blame-me:blame-me`, with and without "ด่าเลย") skipped the question (2 runs). About $0.06 to $0.15 a turn. Other languages untested. |
 | Turning away code and personal matters | Untested |
 | Resumes, applications, articles | Untested |
 | Claude.ai or other chat apps | Untested |
