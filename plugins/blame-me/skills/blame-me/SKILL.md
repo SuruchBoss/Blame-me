@@ -61,7 +61,12 @@ Propose 3 people by default (at most 5). Pick them from who will really read thi
 
 For each seat give: who they are, what they look at first, and the one question that decides whether they say yes. More starting points: [references/panel.md](references/panel.md).
 
-In the same message, ask only what is missing: who the work is for, and whether there is a brief, a rubric, or judging criteria (a teacher's rubric, contest rules, a client's brief). Then stop and let the user confirm or change the panel. They may swap a seat for someone closer to their real reader, such as an accountant instead of a finance director.
+In the same message, ask at most two questions, and only the ones the user has not already answered:
+
+1. Who will read or judge this work?
+2. Is there a brief, a rubric, or judging criteria (a teacher's rubric, contest rules, a client's brief)?
+
+Do not ask anything else, not even about facts missing from the work (costs, dates, how a number was found). Missing facts are for the panel to find and report, not for the user to fill in before the review. Then stop and let the user confirm or change the panel. They may swap a seat for someone closer to their real reader, such as an accountant instead of a finance director.
 
 Skip the wait only when the user has already named the panel or said to use the proposed one.
 
