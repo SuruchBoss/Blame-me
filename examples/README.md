@@ -6,6 +6,7 @@ Two invented pieces of work, written to test the skill, and the reports the skil
 |---|---|
 | `student-idea.th.md` and `student-criteria.th.md` | A business idea contest entry by two second-year university students, with the contest's scoring rules |
 | `brewbox-proposal.th.md` | A small company asking an investor for money |
+| `student-idea-v2.th.md` | The same contest entry, revised after the first report. Some weak spots are fixed, some partly, some not, and one fix causes a new mistake on purpose: fuel is added to the costs, but the profit per box is not changed |
 
 How the reports were made: Claude Code 2.1.316, headless (`claude -p`) on Linux, 2026-11-01, plugin loaded from a local folder (`--plugin-dir`), default model, in a clean home folder so that no personal instruction or memory files were loaded. One run each. In the runs the files were named `idea.th.md`, `criteria.th.md`, and `proposal.th.md`, so the reports use those names.
 
@@ -16,6 +17,7 @@ How the reports were made: Claude Code 2.1.316, headless (`claude -p`) on Linux,
 | `student-report-harsh.th.md` | the same, in harsh mode (`โหมดแรง`) | Three separate helpers |
 | `brewbox-report-normal.th.md` | panel given: an early-stage investor, the HR manager of a 30-person office (who decides to pay), an accountant; no brief | Three separate helpers |
 | `brewbox-report-in-turn.en.md` | the same panel, report in English, helper tool switched off | One model playing each seat in turn |
+| `student-reread.th.md` | `/blame-me:blame-me re-read idea-v2.th.md`, with the earlier normal report as `report.th.md`, the scoring rules, and the same panel | Three separate helpers. Made with the current rules (after the two-question limit was added) |
 
 The only edit: in the three helper runs, the first lines were progress notes written while waiting for the helpers ("the panel is reading", "one reviewer is back") and were removed. Nothing else was changed, including the problems below.
 
@@ -28,3 +30,6 @@ Problems in these reports, left in on purpose:
 - In the first round, a few words were less plain than the skill asks for ("helper" in a Thai report, "ค่าเสื่อม" for depreciation, "moot"). None of these appear in the three reports run again with the new rule. ("ค่าเสื่อม" in the English report is a quote from the proposal itself.)
 - Some of the removed progress notes in the Thai student runs were in English. A rule asking for those notes in the work's language was added afterwards and has not been tried.
 - Normal and harsh mode are meant to find the same weak spots. In the two student runs most weak spots match, but a few are ranked differently (starting to cook before knowing how many orders came in is "Must fix first" in harsh mode and "Should fix" in normal mode). Each mode was a separate run, so some difference between runs is expected.
+- `student-reread.th.md`: all three reviewers gave exactly the same scores in every part (22 / 17 / 14). The report points this out itself. The reviewers ran as separate helpers, so this is not expected, and it was seen in one run only.
+
+The short conversations quoted in the main README (a casual ask, a quick opinion, a panel proposal, code turned away) come from the same kind of runs and are quoted there in full or shortened with "…".

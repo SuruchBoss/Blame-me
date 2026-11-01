@@ -155,4 +155,4 @@ Template: [references/reread.md](references/reread.md).
 
 ## Status of this skill
 
-Version 0.1.0. Tried by the author on two invented pieces of work, a student contest entry and a business proposal. Casual asks were tried in Thai and English. Re-read mode has not been tried yet. See the README for what was seen.
+Version 0.1.0. Tried by the author on two invented pieces of work, a student contest entry and a business proposal. Casual asks were tried in Thai and English. Re-read mode was tried once. See the README for what was seen.
